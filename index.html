@@ -17,5 +17,76 @@
         <p class="text-gray-500 dark:text-gray-400">You have a new message!</p>
     </div>
   </div>
+
+  <!--Gradientes colores-->
+  <div class="text-4xl font-extrabold ms-2">
+    <span class="bg-clip-text text-transparent bg-linear-to-r from-pink-500 to-violet-500">
+      Hola Javi
+    </span>
+  </div>
+
+  <!--Botones y Hover-->
+  <div class="border-solid border-2 border-black w-lg p-2 mt-2 ms-2">
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-amber-600">Hola</button>
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-blue-600">Javi</button>
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-amber-600">Apruebame</button>
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-amber-600">!</button>
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-blue-600">Hala</button>
+    <button class="bg-red-600 p-2 rounded-xl hover:bg-amber-600">Madrid</button>
+  </div>
+
+  <!--Medidas-->
+  <div class="h-25 mt-2 bg-red-400 flex justify-center items-center">
+    <div class="text-2xl">Medidas en Tailwind</div>
+  </div>
+
+  <!--Formulario-->
+  <form action="" class="bg-white w-80 mx-auto mt-8 rounded-lg p-6">
+    <input class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md disabled:bg-red-200" type="text" placeholder="Nombre" disabled>
+
+    <input class="border border-gray-300 w-full px-3 py-2 rounded-md focus:outline-none focus:ring-1 focus:ring-purple-600 invalid:focus:ring-red-400 peer" type="email" placeholder="Correo">
+    <p class="text-red-400 hidden peer-invalid:block">El correo es incorrecto</p>
+
+    <input class="border border-gray-300 w-full px-3 py-2 mt-4 mb-4 rounded-md" type="password" placeholder="Contraseña">
+
+    <input class="bg-blue-500 w-full py-2 text-white rounded-md cursor-pointer hover:bg-blue-400" type="submit" value="Ingresar">
+  </form>
+
+  <!--Formulario Toledo-->
+  <h2 class="text-green-500 text-3xl mt-3 ms-3">Formulario de Contacto</h2>
+  <form action="" class="w-90 mx-auto mt-8 rounded-lg p-6">
+    <input class="border border-gray-300 w-full px-3 py-2 mb-4 rounded-md bg-green-200" type="text" placeholder="Nombre*">
+
+    <input class="border border-gray-300 w-full px-3 py-2 rounded-md bg-green-200 focus:outline-none focus:ring-1 focus:ring-purple-600 invalid:focus:ring-red-400 peer" type="email" placeholder="Dirección de correo-e*">
+    <p class="text-red-400 hidden peer-invalid:block">El correo es incorrecto</p>
+
+    <input class="border border-gray-300 w-full px-3 py-2 mt-4 mb-4 rounded-md bg-green-200" type="text" placeholder="Nº teléfono">
+    <input class="border border-gray-300 w-full px-3 py-2  mb-4 rounded-md bg-green-200" type="text" placeholder="Asunto*">
+    <textarea class="border border-gray-300 w-full px-3 py-2  mb-4 rounded-md bg-green-200" placeholder="Mensaje*"></textarea>
+
+    <button class="bg-white p-2 border-3 border-green-600 hover:bg-green-600">Enviar</button>
+  </form> 
+
+  <!--Lista-->
+  <ul class="list-disc ml-6 marker:text-green-500 mt-3">
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+  </ul>
+
+  <ol class="list-decimal ml-6"></ol>
+
+  <!--Grid-->
+  <div class="grid grid-cols-3 gap-4 mt-4">
+    <div class="card col-span-2 bg-white border border-black rounded col-start-1 col-end-3">Header</div>
+    <div class="card col-span-2 bg-white border border-black">Nav</div>
+    <div class="card col-span-2 bg-white border border-black">Section</div>
+    <div class="card col-span-2 bg-white border border-black">Article</div>
+    <div class="card col-span-2 bg-white border border-black">Aside</div>
+    <div class="card col-span-2 bg-white border border-black">Aside</div>
+    <div class="card col-span-2 bg-white border border-black">Footer</div>
+  </div>
+
+
 </body>
 </html>
