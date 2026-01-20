@@ -1,54 +1,102 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
   <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
   <title>Nike</title>
 </head>
-<body>
+<body class="dark:bg-slate-700">
   <!--NAV1-->
-  <div class="nav py-2 px-8 justify-between hidden md:flex bg-gray-100">
+  <div class="nav py-2 px-8 justify-between hidden md:flex bg-gray-100 dark:bg-slate-800">
 
     <div class="logos flex gap-2">
       <img src="Imagenes/jordan.com.png" class="w-6">
       <img src="Imagenes/converse.png" class="w-6">
     </div>
 
-    <div class="cosas flex gap-2 ">
-      <p class="text-black">Buscar una tienda</p>
+    <div class="cosas flex gap-2 dark:text-white font-semibold">
+      <p class="text-black dark:text-white">Buscar una tienda</p>
       <p>|</p>
-      <p class="text-black">Ayuda</p>
+      <p class="text-black dark:text-white">Ayuda</p>
       <p>|</p>
-      <p class="text-black">Únete a nosotros</p>
+      <p class="text-black dark:text-white">Únete a nosotros</p>
       <p>|</p>
-      <p class="text-black">Iniciar sesión</p>
+      <p class="text-black dark:text-white">Iniciar sesión</p>
       <p>|</p>
     </div>
 
   </div>
 
-  <div class="nav2 p-5 flex justify-between">
+  <div class="nav2 p-5 flex justify-between items-center">
 
     <div class="logo">
       <img src="Imagenes/nike.png" class="w-18">
     </div>
-    <div class="menu gap-4 hidden md:flex">
+    <div class="menu gap-4 hidden md:flex dark:text-white font-semibold ms-5">
       <a href="#">Novedades</a>
       <a href="#">Hombre</a>
       <a href="#">Mujer</a>
       <a href="#">Niño/a</a>
       <a href="#">Deporte</a>
     </div>
-    <div class="iconos flex gap-2">
-      <i class="fa-solid fa-magnifying-glass"></i>
-      <i class="fa-regular fa-user"></i>
-      <i class="fa-solid fa-basket-shopping"></i>
-      <i class="fa-solid fa-bars"></i>
+    <div class="iconos flex gap-2 dark:text-white items-center">
+      <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full cursor-pointer" id="darkmode">DarkMode</button> 
+      <i class="fa-solid fa-magnifying-glass text-xl cursor-pointer"></i>
+      <i class="fa-regular fa-user text-xl cursor-pointer"></i>
+      <i class="fa-solid fa-basket-shopping text-xl cursor-pointer"></i>
+      <i class="fa-solid fa-bars text-xl cursor-pointer"></i>
     </div>
-
   </div>
 
+  <!--Cards-->
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-items-center px-6 mb-6">
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+    <div class="card">
+      <img src="Imagenes/nike1.avif" class="w-full">
+      <p class="text-orange-400 text-lg mt-2">Lo último</p>
+      <p class=" font-bold dark:text-white">KD18 "International Blue"</p>
+      <p class="text-gray-400">Zapatillas de baloncesto</p>
+      <p class="font-bold dark:text-white">159,99€</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
