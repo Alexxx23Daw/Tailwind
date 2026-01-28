@@ -11,7 +11,7 @@ export const Header = () => {
   }
 
   return (
-    <header className="bg-very-pale-blue dark:bg-very-dark-blue h-[235px] rounded-b-[20px] pt-8 px-6">
+    <header className="bg-very-pale-blue dark:bg-very-dark-blue h-[235px] rounded-b-[20px] pt-8 px-6 mb-[1000px] md:mb-[480px] xl:mb-[200px]">
 
         <h1 className="text-very-dark-blue dark:text-very-pale-blue text-2xl font-bold mb-1">Social Media Dashboard</h1>
         <p className="text-dark-grayish-blue dark:text-desaturated-blue font-bold mb-6">Total Followers: 23,004</p>
