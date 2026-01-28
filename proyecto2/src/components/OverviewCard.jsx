@@ -11,18 +11,20 @@ const networkLogos = {
 }
 
 const networkColors = {
-  Facebook: 'bg-Facebook',
-  Twitter: 'bg-Twitter',
-  Instagram: 'bg-Instagram-gradient',
-  Youtube: 'bg-YouTube'
+  Facebook: 'bg-facebook',
+  Twitter: 'bg-twitter',
+  Instagram: 'bg-instagram-gradient',
+  Youtube: 'bg-youtube'
 }
+
+
 
 export const OverviewCard = ({user, audienceType, audience, network}) => {  
 
   return (
-    <article className="bg-light-grayish-blue w-[326px] h-[216px] mb-4 rounded-[5px] mx-auto overflow-hidden ">
-        <div className='{`${networkColors[network]} h-[4px]`}'></div>
-        <div className='flex items-center place-content-center gap-2 mb-[28px]'>
+    <article className="bg-light-grayish-blue w-81.5 h-54 mb-4 rounded-[5px] mx-auto overflow-hidden ">
+        <div className={`${networkColors[network]} h-1`}></div>
+        <div className='flex items-center place-content-center gap-2 mb-7'>
             <img src={networkLogos[network]} alt={`logo ${network}`} />
             <p>{user}</p>
         </div>
